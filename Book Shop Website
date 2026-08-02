@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bookshop Website</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#8B4513;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#A0522D;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    width:85%;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h2{
+    color:#8B4513;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+p{
+    margin-bottom:10px;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0 15px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+button{
+    background:#8B4513;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#5C3317;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table,th,td{
+    border:1px solid black;
+}
+
+th{
+    background:#8B4513;
+    color:white;
+}
+
+th,td{
+    padding:10px;
+    text-align:center;
+}
+
+ul{
+    margin-left:20px;
+}
+
+footer{
+    background:#8B4513;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>📚 BOOKSHOP WEBSITE 📚</h1>
+<p>Welcome to Our Online Book Collection</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Books</a>
+<a href="#">Categories</a>
+<a href="#">Offers</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+
+<h2>About Our Bookshop</h2>
+
+<p>Our bookshop provides educational books, novels, story books, science books, technology books and many more.</p>
+
+</section>
+
+<section>
+
+<h2>Book Details Form</h2>
+
+<form>
+
+<label>Book Name</label>
+<input type="text" placeholder="Enter Book Name">
+
+<label>Author Name</label>
+<input type="text" placeholder="Enter Author Name">
+
+<label>Book Price</label>
+<input type="number" placeholder="Enter Price">
+
+<label>Category</label>
+
+<select>
+<option>Novel</option>
+<option>Science</option>
+<option>Technology</option>
+<option>History</option>
+<option>Education</option>
+</select>
+
+<label>Comments</label>
+<textarea rows="4" placeholder="Enter your comments"></textarea>
+
+<button>Submit</button>
+
+</form>
+
+</section>
+
+<section>
+
+<h2>Available Books</h2>
+
+<table>
+
+<tr>
+<th>Book Name</th>
+<th>Author</th>
+<th>Price</th>
+<th>Category</th>
+</tr>
+
+<tr>
+<td>Harry Potter</td>
+<td>J. K. Rowling</td>
+<td>₹550</td>
+<td>Novel</td>
+</tr>
+
+<tr>
+<td>Wings of Fire</td>
+<td>A. P. J. Abdul Kalam</td>
+<td>₹300</td>
+<td>Biography</td>
+</tr>
+
+<tr>
+<td>Clean Code</td>
+<td>Robert C. Martin</td>
+<td>₹700</td>
+<td>Technology</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>Why Choose Us?</h2>
+
+<ul>
+<li>Quality Books</li>
+<li>Affordable Prices</li>
+<li>Latest Collections</li>
+<li>Fast Delivery</li>
+<li>Friendly Service</li>
+</ul>
+
+</section>
+
+<footer>
+
+<p>© 2026 Bookshop Website | HTML & CSS Project</p>
+
+</footer>
+
+</body>
+</html>
